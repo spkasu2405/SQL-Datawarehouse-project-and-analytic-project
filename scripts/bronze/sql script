@@ -1,6 +1,10 @@
-/*Creating a table in Bronze schema
- NAMING CONVENTION should start with "schema" followed by "File name" and  then enity name like( customer, sales etc)
-  to check if tthe table exist before creating
+/*=========================
+script purpose:
+Creats a table in Bronze schema, dropping existing table , if already exists.
+run this script to redefine the DDL Structure of 'BRONZE ' tables.
+NAMING CONVENTION should start with "schema" followed by "File name" and  then enity name like( customer, sales etc)
+ 
+================================================
 */
 
 if OBJECT_ID('bronze.crm_cust_info', 'U')IS NOT NULL
