@@ -191,3 +191,7 @@ BEGIN
 			BEGIN CATCH
 			END CATCH
 END
+======================================
+--*** Execute store procedure
+======================================
+exec bronze.load_bronze
